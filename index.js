@@ -16,7 +16,7 @@ app.use(
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 mongoose.connect(
-  `mongodb+srv://${username}:${password}@cluster0.psuqk.mongodb.net/registrationFormDB`,
+  `mongodb+srv://${username}:${password}@cluster0.psuqk.mongodb.net/MoneyListDB`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
